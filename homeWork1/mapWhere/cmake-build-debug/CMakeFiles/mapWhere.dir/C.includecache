@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/Map.c
+
+C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/TestMap.c
+stdio.h
+-
+header.h
+C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/header.h
+
+C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/TestWhere.c
+stdio.h
+-
+header.h
+C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/header.h
+
+C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/Where.c
+stdbool.h
+-
+
+C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/header.h
+
+C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/main.c
+stdio.h
+-
+stdlib.h
+-
+header.h
+C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/header.h
+
