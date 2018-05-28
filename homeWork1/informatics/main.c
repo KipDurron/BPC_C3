@@ -3,7 +3,7 @@
 #include "headerNew.h"
 int main()
 {
-
+//http://informatics.mccme.ru/user/view.php?id=364890&course=1#
 //http://informatics.mccme.ru/mod/statements/view.php?id=280
     evenNumbers( 1,6);
 //http://informatics.mccme.ru/mod/statements/view.php?id=249
