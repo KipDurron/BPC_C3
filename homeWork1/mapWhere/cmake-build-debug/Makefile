@@ -176,6 +176,60 @@ TestMap.c.s:
 	$(MAKE) -f CMakeFiles\mapWhere.dir\build.make CMakeFiles/mapWhere.dir/TestMap.c.s
 .PHONY : TestMap.c.s
 
+TestWhere.obj: TestWhere.c.obj
+
+.PHONY : TestWhere.obj
+
+# target to build an object file
+TestWhere.c.obj:
+	$(MAKE) -f CMakeFiles\mapWhere.dir\build.make CMakeFiles/mapWhere.dir/TestWhere.c.obj
+.PHONY : TestWhere.c.obj
+
+TestWhere.i: TestWhere.c.i
+
+.PHONY : TestWhere.i
+
+# target to preprocess a source file
+TestWhere.c.i:
+	$(MAKE) -f CMakeFiles\mapWhere.dir\build.make CMakeFiles/mapWhere.dir/TestWhere.c.i
+.PHONY : TestWhere.c.i
+
+TestWhere.s: TestWhere.c.s
+
+.PHONY : TestWhere.s
+
+# target to generate assembly for a file
+TestWhere.c.s:
+	$(MAKE) -f CMakeFiles\mapWhere.dir\build.make CMakeFiles/mapWhere.dir/TestWhere.c.s
+.PHONY : TestWhere.c.s
+
+Where.obj: Where.c.obj
+
+.PHONY : Where.obj
+
+# target to build an object file
+Where.c.obj:
+	$(MAKE) -f CMakeFiles\mapWhere.dir\build.make CMakeFiles/mapWhere.dir/Where.c.obj
+.PHONY : Where.c.obj
+
+Where.i: Where.c.i
+
+.PHONY : Where.i
+
+# target to preprocess a source file
+Where.c.i:
+	$(MAKE) -f CMakeFiles\mapWhere.dir\build.make CMakeFiles/mapWhere.dir/Where.c.i
+.PHONY : Where.c.i
+
+Where.s: Where.c.s
+
+.PHONY : Where.s
+
+# target to generate assembly for a file
+Where.c.s:
+	$(MAKE) -f CMakeFiles\mapWhere.dir\build.make CMakeFiles/mapWhere.dir/Where.c.s
+.PHONY : Where.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -218,6 +272,12 @@ help:
 	@echo ... TestMap.obj
 	@echo ... TestMap.i
 	@echo ... TestMap.s
+	@echo ... TestWhere.obj
+	@echo ... TestWhere.i
+	@echo ... TestWhere.s
+	@echo ... Where.obj
+	@echo ... Where.i
+	@echo ... Where.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

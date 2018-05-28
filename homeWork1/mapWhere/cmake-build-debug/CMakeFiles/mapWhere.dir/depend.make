@@ -6,6 +6,11 @@ CMakeFiles/mapWhere.dir/Map.c.obj: ../Map.c
 CMakeFiles/mapWhere.dir/TestMap.c.obj: ../TestMap.c
 CMakeFiles/mapWhere.dir/TestMap.c.obj: ../header.h
 
+CMakeFiles/mapWhere.dir/TestWhere.c.obj: ../TestWhere.c
+CMakeFiles/mapWhere.dir/TestWhere.c.obj: ../header.h
+
+CMakeFiles/mapWhere.dir/Where.c.obj: ../Where.c
+
 CMakeFiles/mapWhere.dir/main.c.obj: ../header.h
 CMakeFiles/mapWhere.dir/main.c.obj: ../main.c
 

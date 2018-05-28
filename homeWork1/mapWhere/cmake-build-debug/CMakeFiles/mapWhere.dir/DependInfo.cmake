@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/Map.c" "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/cmake-build-debug/CMakeFiles/mapWhere.dir/Map.c.obj"
   "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/TestMap.c" "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/cmake-build-debug/CMakeFiles/mapWhere.dir/TestMap.c.obj"
+  "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/TestWhere.c" "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/cmake-build-debug/CMakeFiles/mapWhere.dir/TestWhere.c.obj"
+  "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/Where.c" "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/cmake-build-debug/CMakeFiles/mapWhere.dir/Where.c.obj"
   "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/main.c" "C:/Users/ishun/Desktop/BPC/BPC_C3/homeWork1/mapWhere/cmake-build-debug/CMakeFiles/mapWhere.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

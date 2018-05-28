@@ -128,11 +128,61 @@ CMakeFiles/mapWhere.dir/TestMap.c.obj.provides: CMakeFiles/mapWhere.dir/TestMap.
 CMakeFiles/mapWhere.dir/TestMap.c.obj.provides.build: CMakeFiles/mapWhere.dir/TestMap.c.obj
 
 
+CMakeFiles/mapWhere.dir/Where.c.obj: CMakeFiles/mapWhere.dir/flags.make
+CMakeFiles/mapWhere.dir/Where.c.obj: ../Where.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mapWhere.dir/Where.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mapWhere.dir\Where.c.obj   -c C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\Where.c
+
+CMakeFiles/mapWhere.dir/Where.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mapWhere.dir/Where.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\Where.c > CMakeFiles\mapWhere.dir\Where.c.i
+
+CMakeFiles/mapWhere.dir/Where.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mapWhere.dir/Where.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\Where.c -o CMakeFiles\mapWhere.dir\Where.c.s
+
+CMakeFiles/mapWhere.dir/Where.c.obj.requires:
+
+.PHONY : CMakeFiles/mapWhere.dir/Where.c.obj.requires
+
+CMakeFiles/mapWhere.dir/Where.c.obj.provides: CMakeFiles/mapWhere.dir/Where.c.obj.requires
+	$(MAKE) -f CMakeFiles\mapWhere.dir\build.make CMakeFiles/mapWhere.dir/Where.c.obj.provides.build
+.PHONY : CMakeFiles/mapWhere.dir/Where.c.obj.provides
+
+CMakeFiles/mapWhere.dir/Where.c.obj.provides.build: CMakeFiles/mapWhere.dir/Where.c.obj
+
+
+CMakeFiles/mapWhere.dir/TestWhere.c.obj: CMakeFiles/mapWhere.dir/flags.make
+CMakeFiles/mapWhere.dir/TestWhere.c.obj: ../TestWhere.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mapWhere.dir/TestWhere.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mapWhere.dir\TestWhere.c.obj   -c C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\TestWhere.c
+
+CMakeFiles/mapWhere.dir/TestWhere.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mapWhere.dir/TestWhere.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\TestWhere.c > CMakeFiles\mapWhere.dir\TestWhere.c.i
+
+CMakeFiles/mapWhere.dir/TestWhere.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mapWhere.dir/TestWhere.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\TestWhere.c -o CMakeFiles\mapWhere.dir\TestWhere.c.s
+
+CMakeFiles/mapWhere.dir/TestWhere.c.obj.requires:
+
+.PHONY : CMakeFiles/mapWhere.dir/TestWhere.c.obj.requires
+
+CMakeFiles/mapWhere.dir/TestWhere.c.obj.provides: CMakeFiles/mapWhere.dir/TestWhere.c.obj.requires
+	$(MAKE) -f CMakeFiles\mapWhere.dir\build.make CMakeFiles/mapWhere.dir/TestWhere.c.obj.provides.build
+.PHONY : CMakeFiles/mapWhere.dir/TestWhere.c.obj.provides
+
+CMakeFiles/mapWhere.dir/TestWhere.c.obj.provides.build: CMakeFiles/mapWhere.dir/TestWhere.c.obj
+
+
 # Object files for target mapWhere
 mapWhere_OBJECTS = \
 "CMakeFiles/mapWhere.dir/main.c.obj" \
 "CMakeFiles/mapWhere.dir/Map.c.obj" \
-"CMakeFiles/mapWhere.dir/TestMap.c.obj"
+"CMakeFiles/mapWhere.dir/TestMap.c.obj" \
+"CMakeFiles/mapWhere.dir/Where.c.obj" \
+"CMakeFiles/mapWhere.dir/TestWhere.c.obj"
 
 # External object files for target mapWhere
 mapWhere_EXTERNAL_OBJECTS =
@@ -140,11 +190,13 @@ mapWhere_EXTERNAL_OBJECTS =
 mapWhere.exe: CMakeFiles/mapWhere.dir/main.c.obj
 mapWhere.exe: CMakeFiles/mapWhere.dir/Map.c.obj
 mapWhere.exe: CMakeFiles/mapWhere.dir/TestMap.c.obj
+mapWhere.exe: CMakeFiles/mapWhere.dir/Where.c.obj
+mapWhere.exe: CMakeFiles/mapWhere.dir/TestWhere.c.obj
 mapWhere.exe: CMakeFiles/mapWhere.dir/build.make
 mapWhere.exe: CMakeFiles/mapWhere.dir/linklibs.rsp
 mapWhere.exe: CMakeFiles/mapWhere.dir/objects1.rsp
 mapWhere.exe: CMakeFiles/mapWhere.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable mapWhere.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ishun\Desktop\BPC\BPC_C3\homeWork1\mapWhere\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable mapWhere.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mapWhere.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -155,6 +207,8 @@ CMakeFiles/mapWhere.dir/build: mapWhere.exe
 CMakeFiles/mapWhere.dir/requires: CMakeFiles/mapWhere.dir/main.c.obj.requires
 CMakeFiles/mapWhere.dir/requires: CMakeFiles/mapWhere.dir/Map.c.obj.requires
 CMakeFiles/mapWhere.dir/requires: CMakeFiles/mapWhere.dir/TestMap.c.obj.requires
+CMakeFiles/mapWhere.dir/requires: CMakeFiles/mapWhere.dir/Where.c.obj.requires
+CMakeFiles/mapWhere.dir/requires: CMakeFiles/mapWhere.dir/TestWhere.c.obj.requires
 
 .PHONY : CMakeFiles/mapWhere.dir/requires
 

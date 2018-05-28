@@ -7,7 +7,7 @@ int main()
 {
 
     testsMap();
-    //testsWhere();
+    testsWhere();
 
     return 0;
 }
