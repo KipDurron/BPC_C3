@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir Newfolder
+touch Newfolder/file1 Newfolder/file2 Newfolder/file3 
+find Newfolder -name 'file1' -exec mv '{}' . \;
+rm file1
